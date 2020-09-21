@@ -1,0 +1,56 @@
+.come{
+    position: absolute;
+}
+.top{
+    left: 5%;
+    /* transform: scale(1.5); */
+}
+.bottom{
+    left: 30%;
+}
+
+.right{
+    left: 55%;
+}
+
+.left{
+    left: 80%;
+}
+
+.add{
+    transform: scale(1.5);
+    transition: opacity 2s ease 3s;
+    opacity: 0;
+}
+
+h1{
+    text-align: center;
+    color: rgb(240, 95, 12);
+    opacity: 0;
+    transition: opacity 2s ease 3s;
+}
+
+.wrapper{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    /* overflow: hidden; */
+    transition: all 2s ease 1s;
+}
+
+img{
+    position: relative;
+    width: 30%;
+    border: 1px solid black;
+    /* background-image: 100% 100%; */
+    background-size: 100% 100%;
+}
+
+button{
+    opacity: 0;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    color: red;
+    border-radius: 10px;
+}
